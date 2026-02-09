@@ -50,4 +50,11 @@ To run this locally and help Celper roast more code:
 ---
 
 ## 👨‍💻 Author
-**RelRashica**
+**RelRashica** 
+
+## 💬 Connect
+Got questions or want to roast my regex? 
+
+[![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](gurandaa)
+
+**Discord User:** `gurandaa`
