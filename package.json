@@ -1,10 +1,17 @@
 {
   "name": "celper",
   "displayName": "Celper",
+  "publisher": "RelRashica",
   "description": "C Helper - Catching leaks before they catch you.",
   "version": "0.0.1",
+  "license": "MIT",
+  "icon": "celper-icon.png",
   "engines": {
     "vscode": "^1.109.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RelRashica/celper.git"
   },
   "categories": [
     "Other"
