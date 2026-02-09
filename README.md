@@ -37,7 +37,7 @@ Celper doesn't just scan for words; it tracks the **lifecycle** of your pointers
 ## 🚀 Installation & Dev
 To run this locally and help Celper roast more code:
 
-1.  Clone the repo: `git clone https://github.com/RelRashica/celper.git`
+1.  Clone the repo: `git clone https://github.com/RelRashica/Celper.git`
 2.  Install dependencies: `npm install`
 3.  Press `F5` to open the **Extension Development Host**.
 4.  Open any `.c` file and start leaking memory!
@@ -51,4 +51,3 @@ To run this locally and help Celper roast more code:
 
 ## 👨‍💻 Author
 **RelRashica**
-*Learning C, C#, and Luau one leak at a time.*
