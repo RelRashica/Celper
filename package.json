@@ -3,7 +3,7 @@
   "displayName": "Celper",
   "publisher": "RelRashica",
   "description": "C Helper - Catching leaks before they catch you.",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "license": "MIT",
   "icon": "celper-icon.png",
   "engines": {
