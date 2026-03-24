@@ -30,7 +30,7 @@ function runCelperLogic(doc: vscode.TextDocument, collection: vscode.DiagnosticC
         if (text.includes("*/")) {isInComment = false; continue;}
 
         if (!isInComment) {
-            let mallocMatch = text.match(/(\w+)\s*=\s*malloc/);
+			let mallocMatch = text.match(/(\w+)\s*=\s*(?:\([\w\*]+\))?\s*malloc/);
             if (mallocMatch) {
     			let varName = mallocMatch[1];
     			let lines = activeAllocations.get(varName) || [];
@@ -63,7 +63,6 @@ function runCelperLogic(doc: vscode.TextDocument, collection: vscode.DiagnosticC
     }
 
     activeAllocations.forEach((linesArray: number[], varName: string) => {
-    
     	linesArray.forEach((lineNum: number) => {
         	const line = doc.lineAt(lineNum);
         	let startChar = line.text.indexOf("malloc");
